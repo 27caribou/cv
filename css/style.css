@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* font size gets inherited. Adding it here will add to the h1; but using px
+  which is a static size will not affect it.*/
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  /*font-size: 562.5%;  100% = 16px; used %age in case someone changed
+  font size on his device; 1em = 16px = 100%*/
+  font-size: 5.625em;
+  margin: 50px auto 0;
+  color: #eaac7f;
+  /* Using rem is root em; so ignore the font-size of container */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #eaac7f;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffc75f;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  width: 7%;
+  border-width: 10px 0 0 0;
+  border-style: dotted;
+  border-color: #e3d0b9;
+}
+
+
+.top {
+  background-color: #ffefa1;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container{
+  margin: 60px auto 60px auto;
+}
+
+.bottom-container{
+  background-color: #f9e0ae;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+}
+
+.bottom-container a {
+  margin: 0 20px;
+  color: #eaac7f;
+  text-decoration: none;
+}
+
+.outsourced-pic {
+  width: 148px;
+}
+
+.code-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.football-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  margin-bottom: 70px;
+}
+
+.short-paragraph {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.skills {
+  margin-top: 60px;
+}
+
+.contact-me {
+  margin-top: 70px;
+}
+
+.btn {
+  color: #eaac7f;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.big-ups {
+  font-size: 0.5rem;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.big-ups a {
+  margin: 0 5px;
+}
+
+a:hover {
+  color: #c24914;
+}
